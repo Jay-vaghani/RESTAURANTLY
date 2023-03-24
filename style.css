@@ -1,0 +1,15 @@
+.text-center {
+  text-align: center;
+}
+
+.text-primary {
+  color: rgb(36, 145, 254);
+}
+
+.text-danger {
+  color: rgba(255, 63, 20, 0.859);
+}
+
+.bg-warning {
+  background-color: gold;
+}
