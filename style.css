@@ -1,15 +1,35 @@
-.text-center {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Montaga&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
 }
 
-.text-primary {
-  color: rgb(36, 145, 254);
+:root {
+  --main-color: #cda45e;
 }
 
-.text-danger {
-  color: rgba(255, 63, 20, 0.859);
+.text-warning {
+  color: var(--main-color) !important;
 }
 
 .bg-warning {
-  background-color: gold;
+  background: var(--main-color) !important;
+}
+
+.banner {
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5) 0%,
+      rgba(0, 0, 0, 0.5) 100%
+    ),
+    url("./images/background/banner-1.jpg") no-repeat center;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+
+.nav2{
+    background: linear-gradient(0deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.7) 100%);
 }
