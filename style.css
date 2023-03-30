@@ -31,6 +31,17 @@
   background-color: #ffffff43;
 }
 
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
 /* Swiper Css  */
 
 .swiper{
@@ -51,8 +62,6 @@
   position: relative;
   margin-top: 50px;
 }
-
-
 
 .swiper-pagination-bullet{
   background: #fff;
@@ -239,7 +248,11 @@
   color: #000 !important;
 }
 
-/* Section 5  */
+/* Section 7  */
+
+.section-7{
+  background-color: #1a1814;
+}
 
 .section-5 {
   background: linear-gradient(
